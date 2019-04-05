@@ -1,0 +1,111 @@
+body {
+    font-family: "avenir next", Arial, sans-serif;
+    font-size: 12px;
+    color: #696969;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.countrylabel{
+            color: blue;
+        }
+#title{
+    color: black;
+    position: center;
+}
+
+#play_button {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background: #f08080;
+    padding-right: 26px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 0 12px;
+    width: 60px;
+    cursor: pointer;
+    height: 30px;
+}
+#stop_button {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    background: #f08080;
+    padding-right: 26px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 0 12px;
+    width: 60px;
+    cursor: pointer;
+    height: 30px;
+}
+
+#play-button:hover {
+    background-color: blue;
+}
+#bubble_chart{
+    margin-top: -20px;
+}
+#click{
+    position: absolute;
+    top: 100px;
+     font-size: 20px;
+}
+.ticks {
+    font-size: 10px;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+    stroke-linecap: round;
+}
+
+.track {
+    stroke: #000;
+    stroke-opacity: 0.3;
+    stroke-width: 10px;
+}
+
+.track-inset {
+    stroke: #dcdcdc;
+    stroke-width: 8px;
+}
+
+.track-overlay {
+    pointer-events: stroke;
+    stroke-width: 50px;
+    stroke: transparent;
+    cursor: crosshair;
+}
+
+.handle {
+    fill: #fff;
+    stroke: #000;
+    stroke-opacity: 0.5;
+    stroke-width: 1.25px;
+}
+#secondChart{
+    position: absolute;
+ margin-top: 800px;
+    margin-left: 60px;
+}
+#firstChart{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 60px;
+}
